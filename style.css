@@ -1,0 +1,181 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+
+.navbar {
+    background: #324045;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: rgb(190, 214, 139);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: #859398;
+    border-radius: 5px;
+    
+}
+
+
+.portfolio {
+    padding: 50px 20px;
+    background: rgb(147, 161, 159);
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #393333;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+.contact {
+    background: #959b9c;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    background: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact button:hover {
+    background: #444;
+}
+
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+    padding: 50px;
+    background-color: #86979b;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-text h2, .about-text h3 {
+    color: #050505;
+}
