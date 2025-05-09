@@ -5,7 +5,7 @@ A clean and responsive personal portfolio website built using only HTML and CSS,
 This is a simple, clean, and fully responsive personal portfolio website built using only HTML and CSS. It includes sections like Home, About Me, Projects, Skills, and Contact.
 
 ## 🌐 Live Demo
-[View the website here 
+View the website here  https://aayushgowda.github.io/portfolio-html-css/ 
 
 
 ## 📁 Features
